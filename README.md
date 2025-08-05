@@ -25,6 +25,7 @@ Features include:
 - Number of major vessels (ca)
 - Thalassemia (thal)
 - Target: Presence of Heart Disease (0 = No, 1 = Yes)
+  
 🤖 Machine Learning Models Used
 - Random Forest Classifier
 - Logistic Regression
