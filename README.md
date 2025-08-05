@@ -41,7 +41,6 @@ Thalassemia
 
 Target (Heart Disease Presence: 1=yes, 0=no)
 
-Dataset Source: UCI Machine Learning Repository - Heart Disease Dataset (or your custom dataset).
 
 🧠 Machine Learning Model
 Algorithm Used: Random Forest Classifier
