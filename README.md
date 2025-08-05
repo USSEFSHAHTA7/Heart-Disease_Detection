@@ -1,58 +1,35 @@
 # Heart-Disease_Detection
-This project implements a machine learning pipeline to predict the presence of heart disease based on clinical parameters. It leverages supervised learning techniques to build a predictive model that can assist in early diagnosis.
+📊 Project Overview
+Heart disease is one of the leading causes of mortality worldwide. Early detection can save lives and reduce healthcare burdens. In this project, we use a supervised learning approach to predict whether a patient is likely to have heart disease based on various health metrics.
 
-📝 Project Overview
-Heart disease is one of the leading causes of death globally. Early detection through clinical data analysis can significantly improve treatment outcomes. This notebook demonstrates the process of:
-
-Data preprocessing & EDA (Exploratory Data Analysis)
-
-Model training using Random Forest Classifier
-
-Evaluation of model performance
-
-📊 Dataset
-The dataset used is likely based on the Cleveland Heart Disease Dataset or a similar structured dataset containing the following features:
-
-Age
-
-Sex
-
-Chest Pain Type
-
-Resting Blood Pressure
-
-Cholesterol Levels
-
-Fasting Blood Sugar
-
-Resting ECG Results
-
-Maximum Heart Rate Achieved
-
-Exercise-Induced Angina
-
-ST Depression
-
-Slope of Peak Exercise ST Segment
-
-Number of Major Vessels Colored by Fluoroscopy
-
-Thalassemia
-
-Target (Heart Disease Presence: 1=yes, 0=no)
+This project includes:
+- Exploratory Data Analysis (EDA)
+- Data Preprocessing & Feature Engineering
+- Training multiple ML Classifiers
+- Evaluating performance using Accuracy, Confusion Matrix & ROC-AUC
+- Model Deployment ready (pickle export)
 
 
-🧠 Machine Learning Model
-Algorithm Used: Random Forest Classifier
+Features include:
+- Age
+- Sex
+- Chest Pain Type (cp)
+- Resting Blood Pressure (trestbps)
+- Cholesterol (chol)
+- Fasting Blood Sugar (fbs)
+- Resting ECG (restecg)
+- Maximum Heart Rate (thalach)
+- Exercise Induced Angina (exang)
+- Oldpeak (ST depression)
+- Slope of ST segment (slope)
+- Number of major vessels (ca)
+- Thalassemia (thal)
+- Target: Presence of Heart Disease (0 = No, 1 = Yes)
+🤖 Machine Learning Models Used
+- Random Forest Classifier
+- Logistic Regression
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
+- Decision Tree Classifier
+Performance metrics: Accuracy, Precision, Recall, F1-Score, ROC-AUC
 
-Evaluation Metrics: Accuracy, Confusion Matrix, Classification Report
-
-Steps:
-
-Data Cleaning & Handling Missing Values
-
-Feature Scaling/Encoding (if required)
-
-Model Training & Validation
-
-Performance Visualization (Confusion Matrix, Accuracy Score)
